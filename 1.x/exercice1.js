@@ -1,6 +1,5 @@
-var age = parseInt(prompt("Indiquez votre âge"));
-	if (age < 18){
-		alert("Vous êtes mineur");
-	}else{
-		alert("Vous êtes majeur");
-}
+	var nom = prompt("Indiquez votre nom");
+	var prenom = prompt("Indiquez votre prenom");
+	var ville = prompt("Indiquez votre ville");
+
+alert("Nom : "+nom+"\nPrenom : "+prenom+"\nVille : "+ville);
