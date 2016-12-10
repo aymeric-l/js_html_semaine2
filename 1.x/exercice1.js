@@ -1,5 +1,4 @@
-var nom = "Doe";
-	var prenom = "John";
-	var ville = "New-York";
+var prenom;
 
-alert("Nom : "+nom+"\nPrenom : "+prenom+"\nVille : "+ville);
+	prenom = prompt("Indiquez votre prénom");
+alert("Bonjour, "+prenom);
